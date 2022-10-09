@@ -14,15 +14,17 @@ body {
     background: #f2f6e9;
 }
 .navbar {
-    background:#999AFD;
+    background:#7DAF9C;
 }
 .nav-link,
 .navbar-brand {
     color: #fff;
     font-size: 28pt;
     font-family: 'Degular Bold';
-    cursor: pointer;
-    
+    cursor: pointer;   
+}
+.navbar-brand:hover{
+    color:#fff;
 }
 .nav-link {
     font-size: 15pt;
@@ -30,7 +32,8 @@ body {
     margin-right: 1em ;
 }
 .nav-link:hover {
-    color: #000;
+    color: rgb(53, 53, 53);
+    transition-duration:0.7s ;
 }
 .navbar-collapse {
     justify-content: flex-end;
@@ -57,10 +60,10 @@ body {
 	text-align: center;
 }
 .description h1 {
-	color: #6ab446;
+	color: #7DAF9C;
 }
 .description p {
-	color: #fff;
+	color: rgb(59, 59, 59);
 	font-size: 1.3rem;
 	line-height: 1.5;
 }
